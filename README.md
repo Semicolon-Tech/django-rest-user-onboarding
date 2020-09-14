@@ -18,14 +18,14 @@ For this repository code to work you will need the following tools/softwares ins
 To set up the project from scratch [here]() is a walk through on how to do so. The following steps shows how to set up the code in this repo locally on your PC.
 
 1. Open your CLI (Terminal for linux users and Command prompt for windows users)
-2. Navigate to your __workspace dir__ using the `cd` command.
+2. Navigate to your __workspace_folder__ using the `cd` command.
 3. If you have Git installed simply type the following commands (for both windows and linux users)
 ```
 git clone https://github.com/Semicolon-Tech/django-rest-user-onboarding
 cd django-rest-user-onboarding
 ```
 
-For those that don't have git pre-installed simply click the code button above and click __Download ZIP__. Once the Zip file download is complete, extract the contents to the __workspace dir__. You should rename the directory named __django-rest-user-onboarding-master__ which you should rename to __django-rest-user-onboarding__.
+For those that don't have git pre-installed simply click the code button above and click __Download ZIP__. Once the Zip file download is complete, extract the contents to the __workspace_folder__. You should rename the directory named __django-rest-user-onboarding-master__ which you should rename to __django-rest-user-onboarding__.
 
 4. This step is optional but __advised__. Set up your __virtualenv__ and __activate__ it by running the following commands
     - #### Windows Users
