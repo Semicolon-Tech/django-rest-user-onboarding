@@ -21,8 +21,8 @@ To set up the project from scratch [here](https://github.com/Semicolon-Tech/djan
 2. Navigate to your __workspace_folder__ using the `cd` command.
 3. If you have Git installed simply type the following commands (for both windows and linux users)
 ```
-git clone https://github.com/Semicolon-Tech/django-rest-user-onboarding
-cd django-rest-user-onboarding
+    git clone https://github.com/Semicolon-Tech/django-rest-user-onboarding
+    cd django-rest-user-onboarding
 ```
 
 For those that don't have git pre-installed simply click the code button above and click __Download ZIP__. Once the Zip file download is complete, extract the contents to the __workspace_folder__. You should rename the directory named __django-rest-user-onboarding-master__ which you should rename to __django-rest-user-onboarding__.
@@ -30,52 +30,52 @@ For those that don't have git pre-installed simply click the code button above a
 4. This step is optional but __advised__. Set up your __virtualenv__ and __activate__ it by running the following commands
     - #### Windows Users
     ```
-    virtualenv venv
-    venv\Scripts\activate
+        virtualenv venv
+        venv\Scripts\activate
     ```
 
     - #### Linux Users
     ```
-    virtualenv venv
-    source venv/bin/activate
+        virtualenv venv
+        source venv/bin/activate
     ```
 
 Once that is done your next terminal prompt will be prefixed with this __(venv)__. For example,
 ```
-C:\Users\christian\Desktop\youtube-api-search>
+    C:\Users\christian\Desktop\youtube-api-search>
 ```
 will become 
 ```
-(venv) C:\Users\christian\Desktop\youtube-api-search>
+    (venv) C:\Users\christian\Desktop\youtube-api-search>
 ```
 
 By the way, the name __venv__ can be changed to a different word/name but we will be using __venv__ in this setup instructions.
 
 5. Upgrade your pip by typing the following command
 ```
-python -m pip install pip --upgrade
+    python -m pip install pip --upgrade
 ```
 
 6. Install all python modules in requirements.txt file by typing the following file
 ```
-pip install -r requirements.txt
+    pip install -r requirements.txt
 ```
 
 7. Set up the models and database (using SQLite locally)
 ```
-python manage.py migrate
+    python manage.py migrate
 ```
 
 8. Create super user credentials
 ```
-python manage.py createsuperuser
+    python manage.py createsuperuser
 ```
 
 Fill the required fields when the prompt comes up.
 
 9. Once all packages have been successfully installed run the following command
 ```
-python manage.py runserver
+    python manage.py runserver
 ```
 it will output a url looking like this `http://127.0.0.1:8000`, visit the url to interact with the application
 
