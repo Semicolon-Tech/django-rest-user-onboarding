@@ -12,7 +12,7 @@ For this repository code to work you will need the following tools/softwares ins
 - Git (Download [here](https://git-scm.com/downloads))
 - virtualenv (Set up instructions [here](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments))
 
-*__Note__: the __*__ indicates the tool/software is required!.*
+*__Note__: the __\*\__ indicates the tool/software is required!.*
 
 ### Set up steps
 To set up the project from scratch [here]() is a walk through on how to do so. The following steps shows how to set up the code in this repo locally on your PC.
