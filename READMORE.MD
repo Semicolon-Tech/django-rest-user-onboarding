@@ -36,24 +36,24 @@ For example if your `<project_folder_name>` is __django_rest_user_onboarding__ s
 4. This step is optional but __advised__. Set up your __virtualenv__ and __activate__ it by running the following commands
     - #### Windows Users
     ```
-    virtualenv venv
-    venv\Scripts\activate
+        virtualenv venv
+        venv\Scripts\activate
     ```
 
     - #### Linux Users
     ```
-    virtualenv venv
-    source venv/bin/activate
+        virtualenv venv
+        source venv/bin/activate
     ```
 
 Once that is done your next terminal prompt will be prefixed with this __(venv)__. For example,
-```
+    ```
     C:\Users\christian\Desktop\project_folder_name>
-```
+    ```
 will become 
-```
+    ```
     (venv) C:\Users\christian\Desktop\project_folder_name>
-```
+    ```
 
 By the way, the name __venv__ can be changed to a different word/name but we will be using __venv__ in this setup instructions.
 
@@ -85,16 +85,16 @@ __Note__: Don't miss the __.__(period/full stop) at the end of the command
 ```
 
 8. Create super user credentials
-```
+    ```
     python manage.py createsuperuser
-```
+    ```
 
 Fill the required fields when the prompt comes up.
 
 9. Once all packages have been successfully installed run the following command
-```
+    ```
     python manage.py runserver
-```
+    ```
 it will output a url looking like this `http://127.0.0.1:8000`, visit the url to interact with the application
 
 __Note__: you can find all the API endpoints in the [urls.py]() files. You can also visit `http://127.0.0.1:8000/admin` to see the admin dashboard.
