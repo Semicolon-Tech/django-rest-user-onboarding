@@ -85,16 +85,16 @@ __Note__: Don't miss the __.__(period/full stop) at the end of the command
 ```
 
 8. Create super user credentials
-    ```
-        python manage.py createsuperuser
-    ```
+```
+    python manage.py createsuperuser
+```
 
 Fill the required fields when the prompt comes up.
 
 9. Once all packages have been successfully installed run the following command
-    ```
-        python manage.py runserver
-    ```
+```
+    python manage.py runserver
+```
 it will output a url looking like this `http://127.0.0.1:8000`, visit the url to interact with the application
 
 __Note__: you can find all the API endpoints in the [urls.py]() files. You can also visit `http://127.0.0.1:8000/admin` to see the admin dashboard.
