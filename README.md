@@ -1,5 +1,6 @@
 # Django-User-Onboarding 
-*Using [Dj-Rest-Auth](https://github.com/jazzband/dj-rest-auth) and [Django-All-Auth](https://github.com/pennersr/django-allauth)*
+"_Using [Dj-Rest-Auth](https://github.com/jazzband/dj-rest-auth) and [Django-All-Auth](https://github.com/pennersr/django-allauth)_"
+
 A Django web application to search YouTube API. The web application has a search box where user can input search text and a search button to click afterwards to initiate the search. When the button is clicked and the search query is submitted then it leads the user to a page displaying the results of the search.
 
 ## How to Set up

@@ -1,13 +1,10 @@
 # Django-User-Onboarding (From Scratch)
 Using [Dj-Rest-Auth](https://github.com/jazzband/dj-rest-auth) and [Django-All-Auth](https://github.com/pennersr/django-allauth)
+
 A Django web application to search YouTube API. The web application has a search box where user can input search text and a search button to click afterwards to initiate the search. When the button is clicked and the search query is submitted then it leads the user to a page displaying the results of the search.
 
 ## How to Set up
-For this repository code to work you will need the following tools/softwares installed __Note__: the __*__ indicates the tool/software is required!.
-- *Python 3.6+ (Download [here](https://www.python.org/downloads/), instructions [here](https://realpython.com/installing-python/))
-- *pip (Set up instructions [here](https://www.liquidweb.com/kb/install-pip-windows/) or [here](https://packaging.python.org/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line))
-- Git (Download [here](https://git-scm.com/downloads))
-- virtualenv (Set up instructions [here](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments))
+__Note__: Make sure You have set up the requirements as stated [here]().
 
 ### Set up steps
 To set up the project from scratch [here]() is a walk through on how to do so. The following steps shows how to set up the code in this repo locally on your PC.
