@@ -17,9 +17,9 @@ git clone https://github.com/Semicolon-Tech/django-rest-user-onboarding
 cd django-rest-user-onboarding
 ```
 
-For those that don't have git pre-installed simply click the code button above and click __Download ZIP__. Once the Zip file download is complete, extract the contents to the __workspace dir__. You should rename the directory named _django-rest-user-onboarding-master_ which you should rename to _django-rest-user-onboarding_.
+For those that don't have git pre-installed simply click the code button above and click __Download ZIP__. Once the Zip file download is complete, extract the contents to the __workspace dir__. You should rename the directory named __django-rest-user-onboarding-master__ which you should rename to __django-rest-user-onboarding__.
 
-4. This step is optional but __advised__. Set up your _virtualenv_ and __activate__ it by running the following commands
+4. This step is optional but __advised__. Set up your __virtualenv__ and __activate__ it by running the following commands
     - #### Windows Users
     ```
     virtualenv venv
@@ -41,7 +41,7 @@ will become
 (venv) C:\Users\christian\Desktop\youtube-api-search>
 ```
 
-By the way, the name _venv_ can be changed to a different word/name but we will be using venv in this setup instructions.
+By the way, the name __venv__ can be changed to a different word/name but we will be using venv in this setup instructions.
 
 5. Upgrade your pip by typing the following command
 ```
@@ -71,7 +71,7 @@ python manage.py runserver
 ```
 it will output a url looking like this `http://127.0.0.1:8000`, visit the url to interact with the application
 
-__Note__: you can find all the API endpoints in the _urls.py_ files. You can also visit `http://127.0.0.1:8000/admin` to see the admin dashboard.
+__Note__: you can find all the API endpoints in the [urls.py]() files. You can also visit `http://127.0.0.1:8000/admin` to see the admin dashboard.
 
 
 ## References
