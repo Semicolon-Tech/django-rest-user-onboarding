@@ -1,4 +1,4 @@
-# Django-User-Onboarding 
+# Django-Rest-User-Onboarding
 _Using [Dj-Rest-Auth](https://github.com/jazzband/dj-rest-auth) and [Django-All-Auth](https://github.com/pennersr/django-allauth)_
 
 A Django web application to search YouTube API. The web application has a search box where user can input search text and a search button to click afterwards to initiate the search. When the button is clicked and the search query is submitted then it leads the user to a page displaying the results of the search.
@@ -15,7 +15,7 @@ For this repository code to work you will need the following tools/softwares ins
 *__Note__: the __\*\__ indicates the tool/software is required!.*
 
 ### Set up steps
-To set up the project from scratch [here]() is a walk through on how to do so. The following steps shows how to set up the code in this repo locally on your PC.
+To set up the project from scratch [here](https://github.com/Semicolon-Tech/django-rest-user-onboarding/blob/master/READMORE.MD) is a walk through on how to do so. The following steps shows how to set up the code in this repo locally on your PC.
 
 1. Open your CLI (Terminal for linux users and Command prompt for windows users)
 2. Navigate to your __workspace_folder__ using the `cd` command.
@@ -49,7 +49,7 @@ will become
 (venv) C:\Users\christian\Desktop\youtube-api-search>
 ```
 
-By the way, the name __venv__ can be changed to a different word/name but we will be using venv in this setup instructions.
+By the way, the name __venv__ can be changed to a different word/name but we will be using __venv__ in this setup instructions.
 
 5. Upgrade your pip by typing the following command
 ```
@@ -86,3 +86,5 @@ __Note__: you can find all the API endpoints in the [urls.py]() files. You can a
 1. [Python 3 Installation & Setup Guide](https://realpython.com/installing-python/)
 2. [How to Install PIP on Windows](https://www.liquidweb.com/kb/install-pip-windows/)
 3. [Installing Packages (in python)](https://packaging.python.org/tutorials/installing-packages/)
+4. [Dj-Rest-Auth](https://github.com/jazzband/dj-rest-auth)
+5. [Django-All-Auth](https://github.com/pennersr/django-allauth)
